@@ -26,7 +26,6 @@ public class PositiveLoginTests extends BaseTest {
         return new Object[][]{
                 {Users.GOOD_USER},
                 {Users.JUST_CHANGED_PASSWORD_USER_WITH_NEW_PASSWORD},
-
         };
     }
 
