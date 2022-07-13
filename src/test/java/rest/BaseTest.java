@@ -7,7 +7,7 @@ public class BaseTest {
     protected RestWrapper api;
 
     @BeforeSuite
-    public void prepare(){
+    public void prepare() {
         api = RestWrapper.getApi();
     }
 }

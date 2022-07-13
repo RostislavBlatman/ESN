@@ -3,7 +3,6 @@ package rest.services;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
-import io.restassured.http.Cookies;
 import io.restassured.specification.RequestSpecification;
 
 public abstract class RestService {
@@ -12,7 +11,7 @@ public abstract class RestService {
 
     protected abstract String getBasePath();
 
-    public RestService(){
+    public RestService() {
 
 
         REQ_SPEC = new RequestSpecBuilder()
