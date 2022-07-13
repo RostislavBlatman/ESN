@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All tests suite" verbose="1">
+
+    <test name="Positive tests">
+        <classes>
+            <class name="rest.login.PositiveLoginTests"/>
+        </classes>
+    </test>
+
+    <test name="Negative tests">
+        <classes>
+            <class name="rest.login.NegativeLoginTests"/>
+        </classes>
+    </test>
+
+</suite>
